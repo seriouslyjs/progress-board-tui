@@ -1,0 +1,18 @@
+# Define predefined task workflows
+tasks:
+  - taskId: "global-analysis"
+    taskName: "Global Analysis"
+    metadata:
+      owner: "Data Science Team"
+      priority: "High"
+    subtasks:
+      - taskId: "noun-extraction"
+        taskName: "Noun Extraction"
+        metadata:
+          owner: "NLP Subteam"
+          priority: "Medium"
+      - taskId: "verb-extraction"
+        taskName: "Verb Extraction"
+        metadata:
+          owner: "NLP Subteam"
+          priority: "Medium"

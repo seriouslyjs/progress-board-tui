@@ -1,0 +1,21 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "main": "App.jsx",
+  "scripts": {
+    "start": "bun App.jsx",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "ink": "^5.0.1",
+    "react": "^18.3.1",
+    "yaml": "^2.5.1"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/bun": "^1.1.10",
+    "@types/node": "^22.7.4",
+    "ink-testing-library": "^4.0.0",
+    "strip-ansi": "^7.1.0"
+  }
+}
